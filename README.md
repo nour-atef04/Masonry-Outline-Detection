@@ -1,6 +1,6 @@
-# Masonary Outline Detection
+# Masonry Outline Detection
 
-Masonary Outline Detection is a local Streamlit application for identifying
+Masonry Outline Detection is a local Streamlit application for identifying
 brick regions in masonry images, previewing their boundaries, and exporting the
 resulting outlines as DXF polylines.
 
