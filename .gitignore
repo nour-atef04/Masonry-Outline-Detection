@@ -1,0 +1,15 @@
+# Ignore virtual environment
+.venv/
+
+# Build artifacts
+dist/
+
+# Ignore dataset and model params
+Data/
+best-model-5/
+*.pth
+
+# (Optional) Ignore common editor files
+.vscode/
+__pycache__/
+*.pyc
