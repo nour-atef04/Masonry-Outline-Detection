@@ -74,15 +74,13 @@ git clone https://github.com/nour-atef04/Masonry-Outline-Detection.git
 cd Masonry-Outline-Detection
 ```
 
-The trained weights are distributed separately because `model.pth` exceeds
-GitHub's 100 MB per-file limit. After publishing a GitHub Release with the
-asset named exactly `model.pth`, download it into the project root:
+The trained model weights are distributed separately because `model.pth` exceeds GitHub's 100 MB per-file limit.
 
-```powershell
-Invoke-WebRequest `
-  -Uri "https://github.com/nour-atef04/Masonry-Outline-Detection/releases/latest/download/model.pth" `
-  -OutFile "model.pth"
-```
+1. Open the [GitHub Releases page](https://github.com/nour-atef04/Masonry-Outline-Detection/releases).
+2. Download the `model.pth` file from the latest release.
+3. Place `model.pth` directly in the project's root directory, alongside `streamlit_app.py`.
+
+**Important:** The application requires `model.pth` to run inference. Make sure the file is present in the project root before starting the application.
 
 Create a virtual environment, install the dependencies, and start Streamlit
 from the project root. Using the virtual environment's Python executable
